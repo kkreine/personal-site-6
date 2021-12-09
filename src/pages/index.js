@@ -8,23 +8,20 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    <h1>hello, thanks for stopping by</h1>
+    <h2>a few things to do here:</h2>
+    <h4>view my <Link to="http://github.com/kkreine">github profile</Link></h4>
+    <h4>learn about my <Link to="/experience/">experience</Link></h4>
+    <h4>peruse my <Link to="/education/">education</Link></h4>
+    <h4>take a gander at my <Link to="/garden/">garden</Link></h4>
+    <h4>explore the fabulous <Link to="https://pedantic-tereshkova-51a924.netlify.app">three divas gift shop</Link></h4>
+    {/* <h4>listen to one of my <Link to="/podcasts/">podcast recommendations</Link> </h4> */}
+    <h4>read how i've <Link to="/volunteering/">given back</Link> to my community</h4>
+
+    <h2>a few ways to contact me:</h2>
+    <h4>sending a homing pigeon to New Orleans, LA</h4>
+    <h4>typing: kori.kreine@gmail.com</h4>
+    <h4>hollering: (504) 323-4524</h4>
   </Layout>
 )
 

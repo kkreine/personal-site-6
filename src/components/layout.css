@@ -8,6 +8,7 @@ html {
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
+  background: linear-gradient(30deg, #89C184, #8489c1);
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
@@ -496,6 +497,12 @@ ol li {
 }
 ul li {
   padding-left: 0;
+}
+.college-orgs-ul, .college-orgs-item {
+    display: flex;
+}
+.college-orgs-item {
+  text-align: center;
 }
 li > ol {
   margin-left: 1.45rem;

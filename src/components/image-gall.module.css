@@ -1,0 +1,12 @@
+.imggall {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin: 4%;
+}

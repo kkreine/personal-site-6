@@ -1,0 +1,21 @@
+.exp {
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+}
+
+.lastexp {
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.expcontainer {
+  border-style: outset;
+  border-color: #c18489;
+  border-radius: 20%;
+}

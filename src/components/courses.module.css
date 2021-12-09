@@ -1,0 +1,13 @@
+.coursestyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 21%;
+}
+
+.coursestylecontainer {
+  background: #c18489;
+  border-radius: 1%;
+}
+
