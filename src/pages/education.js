@@ -10,11 +10,11 @@ const EducationPage = () => (
     <Layout>
         <Seo title="education" />
         <h1>Education</h1>
-        <CollegeDegree 
+        <CollegeDegree
             image={<StaticImage alt="Loyola University New Orleans logo" src="../images/loyno-logo.png" />}
-            degreename="Bachelor of Science, Computer Science Cybersecurity" 
+            degreename="Bachelor of Science, Computer Science Cybersecurity"
             collegename="Loyola University New Orleans"
-            graduationdate="May 2022" 
+            graduationdate="May 2022"
         />
 
 
@@ -26,6 +26,8 @@ const EducationPage = () => (
 
         <li>Udemy 2020 Complete Ruby on Rails Bootcamp</li>
         <li>Udemy Complete Ruby on rails Dev Course (in progress)</li>
+        <p><Link to="/">back to the homepage</Link></p>
+
     </Layout>
 )
 

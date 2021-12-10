@@ -34,6 +34,7 @@ const VolunteeringPage = () => (
       dates="September 2018 to May 2019"
       positiontitle="After School Program Assistant"
     />
+    <p><Link to="/">back to the homepage</Link></p>
 
   </Layout>
 )

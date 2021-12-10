@@ -39,7 +39,6 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          <p><Link to="/">back to the homepage</Link></p>
           © {new Date().getFullYear()}, built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
