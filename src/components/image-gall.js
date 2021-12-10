@@ -8,17 +8,17 @@ import { row, column } from "./image-gall.module.css"
 const ImageGall = (props) => (
   <Layout2>
     <div className={row}>
-    <div className={column}>
-      {props.image1}
-      {props.image2}
-      {props.image5}
+      <div className={column}>
+        {props.image1}
+        {props.image2}
+        {props.image5}
+      </div>
+      <div className={column}>
+        {props.image3}
+        {props.image4}
+        {props.image6}
+      </div>
     </div>
-    <div className={column}>
-    {props.image3}
-    {props.image4}
-    {props.image6}
-    </div>
-  </div>
   </Layout2 >
 )
 

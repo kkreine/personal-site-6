@@ -18,7 +18,7 @@ const ExperienceItem = (props) => (
       <li className={coursestyle}>Computer Organization</li>
       <li className={coursestyle}>Corporate Cybersecurity Strategy</li>
       <li className={coursestyle}>Data Structures</li>
-      <li className={coursestyle}>Languages and Paradigms</li>
+      <li className={coursestyle}>Languages & Paradigms</li>
       <li className={coursestyle}>Operating Systems</li>
       <li className={coursestyle}>Calculus II</li>
       <li className={coursestyle}>Game As Art</li>

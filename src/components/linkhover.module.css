@@ -1,0 +1,9 @@
+
+.hovertext {
+  display: none;
+}
+
+.linktext:hover + .hovertext {
+  display: block;
+  color: #c18489;
+}

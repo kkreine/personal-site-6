@@ -498,12 +498,7 @@ ol li {
 ul li {
   padding-left: 0;
 }
-.college-orgs-ul, .college-orgs-item {
-    display: flex;
-}
-.college-orgs-item {
-  text-align: center;
-}
+
 li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
