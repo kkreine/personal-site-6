@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 import Header from "./header"
+import ColoredLink from "../components/colored-link"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -41,7 +42,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <ColoredLink linktext="https://www.gatsbyjs.com" text="gatsby" />
         </footer>
       </div>
     </>
