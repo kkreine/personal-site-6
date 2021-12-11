@@ -30,7 +30,7 @@ const ExperiencePage = () => (
     <ExperienceItem
       title="Childcare Provider"
       company="Self / St. Catherine of Siena School"
-      dates="October 2018 - April 2021October 2018 - April 2021"
+      dates="October 2018 - April 2021"
       descr="Assisted families and an elementary school for 15-25 hours per week while enrolled full-time in school"
     />
     <ExperienceItem
