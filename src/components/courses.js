@@ -3,29 +3,54 @@ import { coursestyle } from "./courses.module.css"
 import { coursestylecontainer } from "./courses.module.css"
 import Layout2 from "../components/layout2"
 import Seo from "../components/seo"
+import ColoredLink from "./colored-link"
+import PinkText from "./pink-text"
 
 const ExperienceItem = (props) => (
-// edits: change this to iterate through all of the props
-<Layout2>
-  <div className={coursestylecontainer}>
-    <ul className={coursestyle}>
-      <li className={coursestyle}>Software Engineering</li>
-      <li className={coursestyle}>Internet Technologies</li>
-      <li className={coursestyle}>Digital Forensics</li>
-      <li className={coursestyle}>Machine Learning</li>
-      <li className={coursestyle}>Object-Oriented Programming</li>
-      <li className={coursestyle}>Game Programming</li>
-      <li className={coursestyle}>Computer Organization</li>
-      <li className={coursestyle}>Corporate Cybersecurity Strategy</li>
-      <li className={coursestyle}>Data Structures</li>
-      <li className={coursestyle}>Languages & Paradigms</li>
-      <li className={coursestyle}>Operating Systems</li>
-      <li className={coursestyle}>Calculus II</li>
-      <li className={coursestyle}>Game As Art</li>
-    </ul>
-  </div>
+  // edits: change this to iterate through all of the props
+  <Layout2>
+    <p><strong>
+      <PinkText text="Java Code Immersion - Tech Talent South" />
+    </strong>
+      <em>fundamentals of HTML, CSS, Bootstrap, SQL, Git <br></br>
+        build and deploy Twitter-like application in Java using Heroku and Spring Boot
+      </em>
+    </p>
+    <p><strong>
+      <PinkText text="Software Engineering" />
+    </strong>
+      <em>worked on a team in backend, front end, and management roles to build a Java-based voting machine
+      </em>
+    </p>
+    <p><strong>
+      <PinkText text="Internet Technologies" />
+    </strong>
+      <em>built a React-based <ColoredLink linktext="https://github.com/kkreine/garden-helper-app" text="web application" /> to render plant data fetched from an api
+      </em>
+    </p>
+    <p><strong>
+      <PinkText text="Udemy 2020 Complete Ruby on Rails Bootcamp" />
+    </strong>
+      <em>fundamentals of Ruby and Rails <br></br>
+        build and deploy <ColoredLink linktext="https://github.com/kkreine/orbit001" text="social media web application" />
+      </em>
+    </p>
+    <p><strong>
+      <PinkText text="Machine Learning" />
+    </strong>
+      <em>used machine learning algorithms for <ColoredLink linktext="https://github.com/kkreine/knn-digit-recognition" text="digit recognition" />, <ColoredLink linktext="https://github.com/kkreine/heart-disease-nn" text="heart disease prediction" />, predicting <ColoredLink linktext="https://github.com/kkreine/predicting-tumors" text="benign/malignant tumors" />, and predicting <ColoredLink linktext="https://github.com/kkreine/logistic-regression-ex" text="college acceptance" />
+      </em>
+    </p>
 
-</Layout2> 
+    <ul>
+      <li><PinkText text="Digital Forensics" /></li>
+      <li><PinkText text="Object-Oriented Programming" /></li>
+      <li><PinkText text="Game Programming" /></li>
+      <li><PinkText text="Computer Organization" /></li>
+      <li><PinkText text="Data Structures" /></li>
+      <li><PinkText text="Cryptography (Spring 2022)" /></li>
+    </ul>
+  </Layout2>
 
 )
 

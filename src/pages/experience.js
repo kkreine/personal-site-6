@@ -3,11 +3,12 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
 import ExperienceItem from "../components/experience-item"
+import ColoredLink from "../components/colored-link"
 
 const ExperiencePage = () => (
   <Layout>
     <Seo title="experience" />
-    <h1>experience</h1>
+    <h1>Experience</h1>
     <ExperienceItem
       title="Video Engineer Trainee"
       company="Atheist Community of Austin"
@@ -40,7 +41,7 @@ const ExperiencePage = () => (
       Coached team members and coordinate team administration"
     />
 
-    <p><Link to="/">back to the homepage</Link></p>
+    <p><ColoredLink linktext="/" text="back to the homepage" /> </p>
 
   </Layout>
 )

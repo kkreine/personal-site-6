@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ImageGall from "../components/image-gall"
-
+import ColoredLink from "../components/colored-link"
 
 const GardenPage = () => {
 
@@ -24,8 +24,7 @@ const GardenPage = () => {
         image5={<StaticImage alt="Broccoli harvest in a plastic bag" src="../images/broccoli2.jpg" />}
         image6={<StaticImage alt="Strawberries" src="../images/strawberries.jpg" />}
       />
-      <p><Link to="/">back to the homepage</Link></p>
-
+      <p><ColoredLink linktext="/" text="back to the homepage"/> </p>
     </Layout>
   )
 }

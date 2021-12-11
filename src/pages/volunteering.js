@@ -1,8 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import VolunteerItem from "../components/volunteer-item"
+import ColoredLink from "../components/colored-link"
 
 const VolunteeringPage = () => (
   <Layout>
@@ -34,8 +34,7 @@ const VolunteeringPage = () => (
       dates="September 2018 to May 2019"
       positiontitle="After School Program Assistant"
     />
-    <p><Link to="/">back to the homepage</Link></p>
-
+    <p><ColoredLink linktext="/" text="back to the homepage" /> </p>
   </Layout>
 )
 
