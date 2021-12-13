@@ -22,7 +22,7 @@ const IndexPage = () => (
     <h2>a few ways to contact me:</h2>
     <HorizontalLine />
     <h4>sending a homing pigeon to New Orleans, LA</h4>
-    <h4>typing: kori.kreine@gmail.com</h4>
+    <h4>typing: kori.kreine@gmail.com or @kori-k:matrix.org</h4>
     <h4>hollering: (504) 323-4524</h4>
   </Layout>
 )
