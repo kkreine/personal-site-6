@@ -17,6 +17,13 @@ const ExperienceItem = (props) => (
       </em>
     </p>
     <p><strong>
+      <PinkText text="Independent Study - Open Source Development" />
+    </strong>
+      <em>read several texts, including Working in Public by Nadia Eghbal, related to open source <br></br>
+        contribute to various open source projects
+      </em>
+    </p>
+    <p><strong>
       <PinkText text="Software Engineering" />
     </strong>
       <em>worked on a team in backend, front end, and management roles to build a Java-based voting machine
@@ -48,6 +55,7 @@ const ExperienceItem = (props) => (
       <li><PinkText text="Game Programming" /></li>
       <li><PinkText text="Computer Organization" /></li>
       <li><PinkText text="Data Structures" /></li>
+      <li><PinkText text="Intro to Relational Databases" /></li>
       <li><PinkText text="Cryptography (Spring 2022)" /></li>
     </ul>
   </Layout2>
