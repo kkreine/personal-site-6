@@ -24,12 +24,13 @@ const CollegeDegree = (props) => (
         <h2>{props.degreename}</h2>
         <h4>{props.collegename}</h4>
         <h4>Graduation: {props.graduationdate}</h4>
+        <h4>GPA: 3.9/4.0</h4>
         <ul className={ul}>
-        <li className={org}>Dean's List 2019-2021</li>
-        <li className={org}>Alpha Sigma Nu Honor Society</li>
-        <li className={org}>National Society of Leadership and Success</li>
-        <li className={org}>Omicron Delta Kappa Honor Society</li>
-      </ul>
+          <li className={org}>Dean's List 2019-2021</li>
+          <li className={org}>Alpha Sigma Nu Honor Society</li>
+          <li className={org}>National Society of Leadership and Success</li>
+          <li className={org}>Omicron Delta Kappa Honor Society</li>
+        </ul>
       </div>
     </div>
     {/* 
