@@ -5,10 +5,11 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  background: linear-gradient(30deg, #89C184, #8489c1);
+  background: linear-gradient(30deg, #b0d1ae, #8489c1);
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;

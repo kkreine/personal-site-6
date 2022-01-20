@@ -56,7 +56,8 @@ const ExperienceItem = (props) => (
       <li><PinkText text="Computer Organization" /></li>
       <li><PinkText text="Data Structures" /></li>
       <li><PinkText text="Intro to Relational Databases" /></li>
-      <li><PinkText text="Cryptography (Spring 2022)" /></li>
+      <li><PinkText text="Cryptography (currently enrolled)" /></li>
+      <li><PinkText text="Computing Ethics (currently enrolled)" /></li>
     </ul>
   </Layout2>
 
