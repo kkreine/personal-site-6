@@ -22,8 +22,8 @@ const ExperiencePage = () => (
       descr="As assistant to a partner, increased the number of interviews and hires to exceed quota"
     />
     <ExperienceItem
-      title="Three Divas Gift Shop"
-      company="Online Store and Social Media Assistant"
+      title="Online Store and Social Media Assistant"
+      company="Three Divas Gift Shop"
       dates="November 2019 - January 2020"
       descr="Built a website through Shopify that increased sales for the business and expanded sales to nationwide"
     />
