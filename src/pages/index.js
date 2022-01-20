@@ -15,7 +15,7 @@ const IndexPage = () => (
     <h4>learn about my <ColoredLink linktext="/experience/" text="experience" /></h4>
     <h4>peruse my <ColoredLink linktext="/education/" text="education" /></h4>
     <h4>take a gander at my <ColoredLink linktext="/garden/" text="garden" /></h4>
-    <h4>explore the fabulous <ColoredLink linktext="https://pedantic-tereshkova-51a924.netlify.app" text="three divas gift shop" /></h4>   
+    {/* <h4>explore the fabulous <ColoredLink linktext="https://pedantic-tereshkova-51a924.netlify.app" text="three divas gift shop" /></h4>    */}
     {/* <h4>listen to one of my <Link to="/podcasts/">podcast recommendations</Link> </h4> */}
     <h4>read how i've <ColoredLink linktext="/volunteering/" text="given back" /> to my community</h4>
 
