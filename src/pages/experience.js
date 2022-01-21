@@ -37,7 +37,7 @@ const ExperiencePage = () => (
       title="Team Leader"
       company="Jumpstart"
       dates="October 2017 - April 2018"
-      descr="Led a team of college students in implementing a bi-weekly lesson plan for low-income pre-schools while enrolled full-time in school
+      descr="Led a team of college students in implementing a bi-weekly lesson plan for low-income pre-schools while enrolled full-time in school; 
       Coached team members and coordinate team administration"
     />
 
