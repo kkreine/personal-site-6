@@ -18,6 +18,7 @@ const IndexPage = () => (
     {/* <h4>explore the fabulous <ColoredLink linktext="https://pedantic-tereshkova-51a924.netlify.app" text="three divas gift shop" /></h4>    */}
     {/* <h4>listen to one of my <Link to="/podcasts/">podcast recommendations</Link> </h4> */}
     <h4>read how i've <ColoredLink linktext="/volunteering/" text="given back" /> to my community</h4>
+    <h4>see the <ColoredLink linktext="https://i.simmer.io/@korikenn/solar-system-simulator" text="solar system" /> from different points of view by clicking different planets</h4>
 
     <h2>a few ways to contact me:</h2>
     <HorizontalLine />
