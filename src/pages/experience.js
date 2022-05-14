@@ -21,17 +21,17 @@ const ExperiencePage = () => (
       dates="January 2022"
       descr="Teaching C# programming fundamentals through lectures and homework assistance to a game design student in a month-long introduction to C# course"
     />
-    <ExperienceItem
+    {/* <ExperienceItem
       title="Video Engineer Trainee"
       company="Atheist Community of Austin"
       dates="November 2021 - Present"
       descr="Currently training to be a (volunteer) video engineer for the 501(c)3 organization's multiple live streams using Wirecast"
-    />
+    /> */}
     <ExperienceItem
       title="Online Store and Social Media Assistant"
       company="Three Divas Gift Shop"
       dates="November 2019 - January 2020"
-      descr="Built a website through Shopify that increased sales for the business and expanded sales to nationwide"
+      descr="Expanded sales to nationwide through building a Shopify website and cultivating a brand image through social media."
     />
     <ExperienceItem
       title="Recruiting Assistant"

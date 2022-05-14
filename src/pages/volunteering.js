@@ -6,13 +6,13 @@ import ColoredLink from "../components/colored-link"
 
 const VolunteeringPage = () => (
   <Layout>
-    <VolunteerItem
+    {/* <VolunteerItem
       image={<StaticImage alt="Atheist Community of Austin logo" src="../images/aca-logo.png" />}
       orgtitle="Atheist Community of Austin"
       orglink="https://www.atheist-community.org/Volunteer-for-the-ACA"
       dates="November 0x7E5 to Present"
       positiontitle="Video Engineer Trainee"
-    />
+    /> */}
     <VolunteerItem
       image={<StaticImage alt="Green Light New Orleans rain barrels" src="../images/greenlight.jpg" />}
       orgtitle="Green Light New Orleans"
